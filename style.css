@@ -1,4 +1,4 @@
-.items > a {
+.itemBlock > a {
     float: left;
     display: block;
     text-align: center;
@@ -8,12 +8,11 @@
     text-decoration: none;
 }
 
-.items > a.active {
+.itemBlock > a.active {
     background-color: deeppink;
     color: white;
 }
-.items {
-    
+.itemBlock {
     float: left;
     display: flex;
     flex-direction: column;

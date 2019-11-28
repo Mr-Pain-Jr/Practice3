@@ -1,8 +1,9 @@
  $(document).ready(function () {
-     $(".items>a").click(function () {
-         $("a").removeClass("active");
+     //program
+     $(".itemBlock>a").click(function () {
          $(this).addClass("active");
-         $(".content>div").hide();
+         $("a").removeClass("active");
+         $(".catBlock>div").hide();
          t_content = $(this).attr("href");
          $(t_content).fadeIn(600);
          return false
